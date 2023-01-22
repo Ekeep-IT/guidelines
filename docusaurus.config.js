@@ -39,15 +39,9 @@ const config = {
 			({
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
 				},
 				blog: {
 					showReadingTime: true,
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
@@ -59,6 +53,9 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			prims: {
+				additionalLanguages: ['java', 'csharp', 'cs', 'dotnet'],
+			},
 			navbar: {
 				title: 'My Site',
 				logo: {
