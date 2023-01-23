@@ -90,20 +90,6 @@ const config = {
 					},
 					{
 						title: 'Community',
-						items: [
-							{
-								label: 'Stack Overflow',
-								href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-							},
-							{
-								label: 'Discord',
-								href: 'https://discordapp.com/invite/docusaurus',
-							},
-							{
-								label: 'Twitter',
-								href: 'https://twitter.com/docusaurus',
-							},
-						],
 					},
 					{
 						title: 'More',
@@ -119,7 +105,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} Ekeep-IT, Inc. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
