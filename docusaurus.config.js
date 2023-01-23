@@ -18,7 +18,6 @@ const config = {
 	favicon: 'img/favicon.ico',
 	// GitHub Pages adds a trailing slash by default that I don't want
 	trailingSlash: false,
-
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName, // Usually your GitHub org/user name.
@@ -31,7 +30,6 @@ const config = {
 		defaultLocale: 'fr',
 		locales: ['fr'],
 	},
-
 	presets: [
 		[
 			'classic',
@@ -39,9 +37,6 @@ const config = {
 			({
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
-				},
-				blog: {
-					showReadingTime: true,
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
@@ -62,13 +57,6 @@ const config = {
 					src: 'img/logo.svg',
 				},
 				items: [
-					{
-						type: 'doc',
-						docId: 'intro',
-						position: 'left',
-						label: 'Tutorial',
-					},
-					{ to: '/blog', label: 'Blog', position: 'left' },
 					{
 						href: `https://github.com/${organizationName}/${projectName}`,
 						label: 'GitHub',
@@ -94,10 +82,6 @@ const config = {
 					{
 						title: 'More',
 						items: [
-							{
-								label: 'Blog',
-								to: '/blog',
-							},
 							{
 								label: 'GitHub',
 								href: `https://github.com/${organizationName}/${projectName}`,
