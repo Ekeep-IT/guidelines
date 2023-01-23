@@ -9,8 +9,8 @@ const projectName = 'guidelines';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'My Site',
-	tagline: 'Dinosaurs are cool',
+	title: 'Guidelines',
+	tagline: 'Guide de bonnes pratiques',
 	url: `https://${organizationName}.github.io`,
 	baseUrl: `/${projectName}/`,
 	onBrokenLinks: 'throw',
@@ -28,8 +28,8 @@ const config = {
 	// metadata like html lang. For example, if your site is Chinese, you may want
 	// to replace "en" with "zh-Hans".
 	i18n: {
-		defaultLocale: 'en',
-		locales: ['en'],
+		defaultLocale: 'fr',
+		locales: ['fr'],
 	},
 
 	presets: [
@@ -49,7 +49,6 @@ const config = {
 			}),
 		],
 	],
-
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
@@ -57,9 +56,9 @@ const config = {
 				additionalLanguages: ['java', 'csharp', 'cs', 'dotnet'],
 			},
 			navbar: {
-				title: 'My Site',
+				title: 'Guidelines Ekeep',
 				logo: {
-					alt: 'My Site Logo',
+					alt: 'ekeep logo',
 					src: 'img/logo.svg',
 				},
 				items: [
