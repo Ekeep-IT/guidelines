@@ -1,0 +1,15 @@
+.container-text {
+  width: 100%;
+  text-align: center;
+  color: #004766;
+}
+
+.container-not-found-image {
+  width: 100%;
+  text-align: center;
+}
+
+.not-found-image {
+  width: 300px;
+  height: 300px;
+}
