@@ -30,6 +30,7 @@ const config = {
 		defaultLocale: 'fr',
 		locales: ['fr'],
 	},
+	plugins: ['docusaurus-plugin-sass'],
 	presets: [
 		[
 			'classic',

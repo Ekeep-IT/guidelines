@@ -1,7 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
-import styles from './styles.module.css';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
+import styles from './styles.module.scss';
 
 const FeatureList = [
 	{
