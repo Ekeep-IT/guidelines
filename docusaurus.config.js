@@ -1,5 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+require('dotenv').config();
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -11,7 +12,7 @@ const projectName = 'guidelines';
 const config = {
 	title: 'Guidelines',
 	tagline: 'Guide de bonnes pratiques',
-	url: `https://${organizationName}.github.io`,
+	url: process.env.ORGANISATION_URL ?? `https://${organizationName}.github.io`,
 	baseUrl: `/${projectName}/`,
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'throw',
@@ -70,9 +71,7 @@ const config = {
 				links: [
 					{
 						title: 'Docs',
-						items: [
-
-						],
+						items: [],
 					},
 					{
 						title: 'Community',
@@ -95,5 +94,4 @@ const config = {
 			},
 		}),
 };
-
 module.exports = config;
