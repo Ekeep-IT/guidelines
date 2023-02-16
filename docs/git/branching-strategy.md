@@ -32,7 +32,7 @@ Une branche est un pointeur vers un commit.
 <!-- je vous invites à lire ces parties : TODO: mettre les liens vers les document sur ces trois sous parties, une fois qu'ils seront rédigés  -->
 • Explication détaillée d’un commit
 • Convention de nommage des commits
-• Convention de nommage des branches
+• [Convention de nommage des branches](/docs/git/naming-branch-convention.md)
 
 ## Qu’est-ce qu’une release ?
 

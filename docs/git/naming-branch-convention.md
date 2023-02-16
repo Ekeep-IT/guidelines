@@ -10,6 +10,19 @@ Ne pas utiliser de nom approprié au but de la branche mènera les développeurs
 
 **Sommaire**
 
+- [Convention de nommage des branches](#convention-de-nommage-des-branches)
+  - [De manière générale](#de-manière-générale)
+  - [Les branches communes](#les-branches-communes)
+  - [Les branches Temporaire](#les-branches-temporaire)
+    - [Feature](#feature)
+    - [Bug fix](#bug-fix)
+    - [Hot fix](#hot-fix)
+    - [Experintal](#experintal)
+    - [Build](#build)
+    - [Release](#release)
+    - [Merging](#merging)
+
+
 ## De manière générale
 
 Lors de la création d’une branche, les conventions les plus utilisées sont les suivantes :
