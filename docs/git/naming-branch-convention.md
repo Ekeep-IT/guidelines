@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Convention de nommage des branches
@@ -21,7 +21,6 @@ Ne pas utiliser de nom approprié au but de la branche mènera les développeurs
     - [Build](#build)
     - [Release](#release)
     - [Merging](#merging)
-
 
 ## De manière générale
 
