@@ -50,7 +50,7 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			prims: {
-				additionalLanguages: ['java', 'csharp', 'cs', 'dotnet'],
+				additionalLanguages: ['java', 'csharp', 'cs', 'dotnet', 'bash'],
 			},
 			navbar: {
 				title: 'Guidelines Ekeep',
